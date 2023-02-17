@@ -1,0 +1,7 @@
+{
+  "name": "PFE App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
