@@ -1,9 +1,23 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+
+@font-face {
+  font-family: AppFront;
+  /* src: url("../../assets/fonts/FontsFree-Net-Gravitype-Minigap.ttf"); */
+  src: url("../assets/fonts/FontsFree-Net-Gravitype-Minigap.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  /* src: url("../../assets/fonts/PTSansNarrow-Regular.ttf"); */
+  src: url("../assets/fonts/PTSansNarrow-Regular.ttf");
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
+  --ion-font-family: AppFront;
+  --ion-font-family: "Roboto", "Helvetica Neue", sans-serif;
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
@@ -233,4 +247,8 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+  
+}
+*{
+  font-family: Montserrat;
 }

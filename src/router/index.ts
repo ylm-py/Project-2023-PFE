@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
 import HomePage from '../views/HomePage.vue'
+import ModelPage from '../views/ModelPage.vue'
+import AllModels from '../views/AllModels.vue'
+import SideBar from '../components/SideBar.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -10,12 +13,31 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/home',
     name: 'Home',
-    component: HomePage
+    components: {
+      default: AllModels,
+      sidebar: SideBar
+    }
+  },
+  {
+    path: '/model/:id',
+    name: 'Model',
+    components: {
+      default: ModelPage,
+      sidebar: SideBar
+    }
+  },
+  {
+    path: '/all-models',
+    name: 'All Models',
+    components: {
+      default: AllModels,
+      sidebar: SideBar
+    }
   }
 ]
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+const router = createRouter({ 
+  history: createWebHistory('/'),
   routes
 })
 
