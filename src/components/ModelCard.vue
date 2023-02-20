@@ -7,7 +7,7 @@
         </ion-card-header>
 
         <div class="footer">
-            <ion-button @click="() => {router.push({path:`/model/${model.id}`});}" expand="block" fill="clear">Explore</ion-button>
+            <ion-button @click="redirect" expand="block" fill="clear">Explore</ion-button>
 
         </div>
 
@@ -51,9 +51,10 @@ export default {
       return { router };
     },
     methods: {
-        redirect() {
-            this.router.push({ path: 'modelPage', });
-        }
+    redirect(){
+        // send with props as model
+        this.router.push({path:`/model/${this.model.id}`, model: JSON.stringify(this.model)})
     }
+}
 }
 </script>

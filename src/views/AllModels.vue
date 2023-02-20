@@ -1,12 +1,4 @@
 <template>
-  <ion-menu content-id="main-content">
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Trained models</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content class="ion-padding">This is the menu content.</ion-content>
-  </ion-menu>
   <ion-page id="main-content">
     <ion-header>
       <ion-toolbar>
@@ -23,24 +15,6 @@
     </ion-content>
   </ion-page>
 </template>
-
-<!-- <template>
-    <ion-page id="main-content">
-    <ion-header>
-      <ion-toolbar>
-        <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
-        <ion-title>Trained models</ion-title>
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <div id="container">
-        <ModelCard v-for="model in models" :key="model.id" :model="model" />
-      </div>
-    </ion-content>
-  </ion-page>
-</template> -->
 
 <script>
 import ModelCard from "../components/ModelCard.vue";
