@@ -63,9 +63,9 @@ import { IonIcon } from "@ionic/vue"
                 model: {
                     id: 1,
                     name: "Tomato maturity model",
-                    subtitle: "Detects the maturity of tomatoes ",
+                    subtitle: "Detects the type of tomatoes ",
                     image: "tomato.png",
-                    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl. Sed euismod, nunc vel tincidunt luctus, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl."
+                    description:"sorting tomato by color green and red"
                 }
             }
         },
