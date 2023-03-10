@@ -4,12 +4,10 @@ http://ionicframework.com/docs/theming/ */
 
 @font-face {
   font-family: AppFront;
-  /* src: url("../../assets/fonts/FontsFree-Net-Gravitype-Minigap.ttf"); */
   src: url("../assets/fonts/FontsFree-Net-Gravitype-Minigap.ttf");
 }
 @font-face {
   font-family: Montserrat;
-  /* src: url("../../assets/fonts/PTSansNarrow-Regular.ttf"); */
   src: url("../assets/fonts/PTSansNarrow-Regular.ttf");
 }
 

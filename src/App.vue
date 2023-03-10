@@ -4,7 +4,7 @@
     <ion-menu content-id="main-content">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Trained models</ion-title>
+        <ion-title>Menus</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content>
@@ -66,14 +66,19 @@ export default defineComponent({
       {
         name: "Models",
         icon: "list-outline",
-        path: "/models",
+        path: "/all-models",
       },
       {
         name: "About",
         icon: "information-circle-outline",
         path: "/about",
 
-      }
+      },
+      {
+        name: "Settings",
+        icon: "settings-outline",
+        path: "/settings",
+      },
     ]}
   }
   

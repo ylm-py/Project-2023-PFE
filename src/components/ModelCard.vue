@@ -52,8 +52,10 @@ export default {
     },
     methods: {
     redirect(){
-        // send with props as model
-        this.router.push({path:`/model/${this.model.id}`, model: JSON.stringify(this.model)})
+
+        if(!this.model.id) this.router.push({path:'/coming-soon'})
+        
+        else this.router.push({path:`/model/${this.model.id}`, model: JSON.stringify(this.model)})
     }
 }
 }

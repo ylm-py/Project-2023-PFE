@@ -37,14 +37,12 @@ export default {
           reference: "https://www.google.com"
         },
         {
-          id: 2,
           name: "Object detection model",
           subtitle: "Detects objects in images",
           image: "objects.png",
-          reference: "https://www.google.com"
+          reference: "https://www.google.com" 
         },
         {
-          id: 3,
           name: "Plant disease detection model",
           subtitle: "Detects diseases in plants",
           image: "plants.png",
